@@ -1,0 +1,27 @@
+{
+  "name": "authapi",
+  "version": "1.0.0",
+  "description": "this is a authApi help to register users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivanshu-tomar/authApi.git"
+  },
+  "author": "Shivanshu Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivanshu-tomar/authApi/issues"
+  },
+  "homepage": "https://github.com/shivanshu-tomar/authApi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.2"
+  }
+}
